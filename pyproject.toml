@@ -1,0 +1,12 @@
+[project]
+name = "magi-backend"
+version = "0.1.0"
+description = "Server-side integrations for the MAGI Expo app"
+requires-python = ">=3.10"
+dependencies = [
+    "honcho-ai>=2.1.2",
+    "python-dotenv>=1.0.0",
+]
+
+[dependency-groups]
+dev = []
